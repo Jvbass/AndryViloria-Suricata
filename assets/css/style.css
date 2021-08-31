@@ -1,0 +1,74 @@
+/*etiqueta body*/
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*Selector universal*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*Selector .class Background del nav y footer*/
+.background-pink {
+  background: #E83E8C;
+}
+.navbar {
+  font-weight: 400;
+}
+
+.navbar-brand img {
+  width: 100%;
+  max-width: 40%;
+}
+
+/*etiqueta h5 con su selector .class*/
+.card-title {
+  color: #373A3C;
+}
+
+/*etiqueta p con su selector .class*/
+.card-text {
+  color: #373A3C;
+}
+
+/*Etiqueta i ocupada para los icons de font-awesome*/
+i {
+  color: #ffffff;
+  padding: 10px;
+}
+
+/* etiqueta h1  */
+h1 {
+  font-size: 60px;
+  color: #707070;
+  font-weight: 700;
+}
+
+/* etiqueta h2*/
+h2 {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+/*etiqueta h5*/
+h5 {
+  font-size: 16px;
+}
+
+/* etiqueta p */
+p {
+  color: #373A3C
+  font-size: 16px;
+}
+
+.card-link {
+  color: #1C7CD5;
+}
+
+/* Parámetros para la img png que va en el footer  */
+footer img {
+  width: 70px;
+  padding: 10px;
+}
